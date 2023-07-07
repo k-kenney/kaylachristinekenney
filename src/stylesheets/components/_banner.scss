@@ -1,0 +1,33 @@
+.banner {
+  width: 100%;
+  margin: auto;
+  height: 55vh;
+  background-color: $purple;
+
+  h1 {
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    color: $pink;
+    font-family: $heading;
+    font-size: 50px;
+  }
+
+  h3 {
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    color: $pink;
+    font-size: 24px;
+  }
+
+  p {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    color: $pink;
+  }
+}

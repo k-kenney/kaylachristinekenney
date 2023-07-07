@@ -1,43 +1,40 @@
+header {
+  background-color: $purple;
+}
 .navbar {
-  width: 85%;
-  align-items: center;
-  display: flex;
-  gap: 50px;
-  height: 90px;
-  justify-content: space-between;
+  width: 75%;
+  height: 60px;
   margin: auto;
   padding-top: 20px;
 
-  .pages-navbar {
-    display: flex;
-    flex-grow: 1;
-    font-size: 23px;
-    justify-content: end;
-    gap: 40px;
-
-    a {
-      color: $purple;
-      font-weight: bold;
-
-      &:hover {
-        color: $purple-hover;
-      }
-    }
-  }
-
-    .social-icons {
+    .pages-navbar {
+      margin: auto;
       display: flex;
+      font-size: 0.75rem;
       justify-content: space-between;
-      width: 30%;
-      padding-right: 50px;
+      align-items: center;
+      text-transform: uppercase;
 
-      i {
-        color: $purple;
-        font-size: 35px;
+      a {
+        color: $pink;
+        font-family: $body-font;
+        font-weight: bold;
 
         &:hover {
-          color: $purple-hover;
+          color: $pink-hover;
+        }
+
+        span {
+          background: $yellow-hover;
+          color: $purple;
+          padding: 5px 10px;
+          border-radius: 15px;
+
+          &:hover {
+            color: $pink;
+          }
         }
       }
     }
+
   }
