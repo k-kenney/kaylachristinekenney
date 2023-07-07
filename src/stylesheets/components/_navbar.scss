@@ -1,0 +1,43 @@
+.navbar {
+  width: 85%;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  height: 90px;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 20px;
+
+  .pages-navbar {
+    display: flex;
+    flex-grow: 1;
+    font-size: 23px;
+    justify-content: end;
+    gap: 40px;
+
+    a {
+      color: $purple;
+      font-weight: bold;
+
+      &:hover {
+        color: $purple-hover;
+      }
+    }
+  }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      padding-right: 50px;
+
+      i {
+        color: $purple;
+        font-size: 35px;
+
+        &:hover {
+          color: $purple-hover;
+        }
+      }
+    }
+  }
