@@ -1,10 +1,10 @@
 #about {
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 
   h1 {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 40px;
     font-family: $heading;
     padding-bottom: 30px;
@@ -14,11 +14,26 @@
     width: 75%;
     margin: auto;
     border-radius: 5px;
+    padding: 15px 0;
   }
 
-  p {
+  .about-text {
     width: 75%;
     margin: auto;
-    padding: 35px 0 0 0;
+    font-size: 18px;
+
+    p{
+      padding: 35px 0 0 0;
+    }
+
+    ul {
+      padding-top: 40px;
+      padding-left: 30px;
+      list-style-type: circle;
+    }
+
+    ul li {
+      padding-bottom: 10px;
+    }
   }
 }
