@@ -3,6 +3,7 @@
   width: 75%;
   margin: auto;
   padding-top: 30px;
+  // padding-bottom: 30px;
 
   h1 {
     font-size: 40px;
@@ -11,7 +12,7 @@
   }
 
   .project {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 
     img {
       border-radius: 5px;
@@ -37,12 +38,12 @@
     }
 
     button {
-      width: 60%;
+      width: 65%;
       color: $pink;
       background-color: $purple;
       font-size: 20px;
-      border-radius: 20px;
-      padding: 7px 20px;
+      border-radius: 25px;
+      padding: 10px;
       margin: 10px;
 
       &:hover {

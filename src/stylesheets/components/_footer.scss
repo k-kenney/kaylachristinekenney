@@ -1,0 +1,39 @@
+footer {
+  background-color: $purple;
+  color: $pink;
+
+  h3 {
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    font-size: 22px;
+    font-family: $heading;
+  }
+
+  .footer-info {
+    text-align: center;
+
+    p {
+      font-size: 18px;
+      padding-bottom: 25px;
+    }
+
+    .separate {
+      display: none;
+    }
+
+    nav {
+      padding-bottom: 20px;
+
+      a {
+        padding: 0 7px;
+        font-size: 24px;
+
+        &:hover {
+          color: $pink-hover;
+        }
+      }
+    }
+  }
+
+}
