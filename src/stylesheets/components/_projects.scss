@@ -1,0 +1,54 @@
+#projects {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  padding-top: 30px;
+
+  h1 {
+    font-size: 40px;
+    font-family: $heading;
+    padding-bottom: 40px;
+  }
+
+  .project {
+    padding-bottom: 40px;
+
+    img {
+      border-radius: 5px;
+      width: 260px;
+      height: 180px;
+      margin: auto;
+    }
+
+    h3 {
+      font-size: 24px;
+      font-family: $heading;
+      padding: 25px 0;
+    }
+
+    p {
+      font-size: 16px;
+      padding-bottom: 10px;
+    }
+
+    .skills-tools {
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    button {
+      width: 60%;
+      color: $pink;
+      background-color: $purple;
+      font-size: 20px;
+      border-radius: 20px;
+      padding: 7px 20px;
+      margin: 10px;
+
+      &:hover {
+        color: $pink-hover;
+      }
+    }
+
+  }
+}

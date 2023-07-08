@@ -1,0 +1,23 @@
+#about {
+  margin: auto;
+
+  h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: $heading;
+    padding-bottom: 30px;
+  }
+
+  img {
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+  p {
+    width: 75%;
+    margin: auto;
+    padding: 35px 0 0 0;
+  }
+}

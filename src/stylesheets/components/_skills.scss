@@ -1,0 +1,32 @@
+#skills {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: $pink;
+  padding-bottom: 40px;
+
+  h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: $heading;
+  }
+
+  h3 {
+    width: 80%;
+    font-size: 28px;
+    font-family: $heading;
+    padding: 30px 0;
+    margin: auto;
+  }
+
+  p {
+    width: 75%;
+    font-weight: bold;
+    color: $purple;
+    background-color: $background;
+    padding: 20px 0;
+    margin: 20px auto;
+    font-size: 20px;
+    text-transform: uppercase
+  }
+}
