@@ -2,8 +2,7 @@
   text-align: center;
   width: 75%;
   margin: auto;
-  padding-top: 30px;
-  // padding-bottom: 30px;
+  padding-top: 40px;
 
   h1 {
     font-size: 40px;
@@ -17,14 +16,13 @@
     img {
       border-radius: 5px;
       width: 260px;
-      height: 180px;
       margin: auto;
     }
 
     h3 {
-      font-size: 24px;
+      font-size: 28px;
       font-family: $heading;
-      padding: 25px 0;
+      padding: 40px 0;
     }
 
     p {
@@ -38,7 +36,7 @@
     }
 
     button {
-      width: 65%;
+      width: 60%;
       color: $pink;
       background-color: $purple;
       font-size: 20px;

@@ -1,12 +1,13 @@
 footer {
   background-color: $purple;
   color: $pink;
+  padding: 25px 0;
 
   h3 {
     text-align: center;
     padding: 20px 0;
     margin: auto;
-    font-size: 22px;
+    font-size: 24px;
     font-family: $heading;
   }
 
@@ -14,8 +15,9 @@ footer {
     text-align: center;
 
     p {
-      font-size: 18px;
+      font-size: 20px;
       padding-bottom: 25px;
+      color: $yellow-hover;
     }
 
     .separate {
@@ -28,7 +30,7 @@ footer {
       a {
         padding: 0 7px;
         font-size: 24px;
-        color: $yellow-hover;
+        color: $pink;
 
         &:hover {
           color: $pink-hover;
