@@ -7,35 +7,70 @@ header {
   margin: auto;
   padding-top: 35px;
 
-    .pages-navbar {
-      margin: auto;
-      display: flex;
-      font-size: 0.75rem;
-      justify-content: space-between;
-      align-items: center;
-      text-transform: uppercase;
-      font-size: 13px;
+  .pages-navbar {
+    margin: auto;
+    display: flex;
+    font-size: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
 
-      a {
-        color: $pink;
-        font-family: $body-font;
-        font-weight: bold;
+    a {
+      color: $pink;
+      font-family: $body-font;
+      font-weight: bold;
+
+      &:hover {
+        color: $pink-hover;
+      }
+
+      span {
+        background: $yellow-hover;
+        color: $purple;
+        padding: 5px 10px;
+        border-radius: 15px;
 
         &:hover {
-          color: $pink-hover;
-        }
-
-        span {
-          background: $yellow-hover;
-          color: $purple;
-          padding: 5px 10px;
-          border-radius: 15px;
-
-          &:hover {
-            color: $pink;
-          }
+          color: $pink;
         }
       }
     }
-
   }
+
+  @media (min-width: $tablet) {
+      width: 75%;
+      padding-top: 50px;
+      height: 80px;
+
+      .pages-navbar {
+        font-size: 1.15rem;
+
+        a {
+          span {
+            padding: 10px 15px;
+            border-radius: 25px;
+          }
+        }
+      }
+  }
+  @media (min-width: $laptop) {
+    width: 70%;
+    padding-top: 70px;
+    height: 100px;
+    padding-bottom: 20px;
+
+    .pages-navbar {
+      font-size: 1.25rem;
+
+      a {
+        span {
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+  @media (min-width: $desktop) {
+    width: 60%;
+  }
+
+}

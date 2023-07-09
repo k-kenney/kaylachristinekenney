@@ -39,4 +39,47 @@ footer {
     }
   }
 
+  @media (min-width: $laptop) {
+    h3 {
+      font-size: 35px;
+    }
+
+    .footer-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+
+      p {
+        font-size: 22px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        color: $pink;
+        border-right: $yellow-hover 0.5px solid;
+        width: 50%;
+        margin-bottom: 30px;
+      }
+
+      nav {
+        padding-top: 15px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-bottom: 30px;
+
+        a {
+          padding: 0 15px;
+          font-size: 35px;
+          color: $pink;
+
+          &:hover {
+            color: $pink-hover;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: $desktop) {
+  }
 }

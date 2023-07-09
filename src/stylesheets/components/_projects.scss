@@ -10,44 +10,128 @@
     padding-bottom: 40px;
   }
 
-  .project {
-    padding-bottom: 60px;
+  .projects-container {
 
-    img {
-      border-radius: 5px;
-      width: 260px;
-      margin: auto;
-    }
+    .project {
+      padding-bottom: 60px;
 
-    h3 {
-      font-size: 28px;
-      font-family: $heading;
-      padding: 40px 0;
-    }
+      img {
+        border-radius: 5px;
+        width: 260px;
+        margin: auto;
+      }
 
-    p {
-      font-size: 18px;
-      padding-bottom: 10px;
-    }
+      h3 {
+        font-size: 28px;
+        font-family: $heading;
+        padding: 40px 0;
+      }
 
-    .skills-tools {
-        padding: 25px 0;
-        text-align: left;
-    }
+      p {
+        font-size: 18px;
+        padding-bottom: 10px;
+      }
 
-    button {
-      width: 60%;
-      color: $pink;
-      background-color: $purple;
-      font-size: 20px;
-      border-radius: 25px;
-      padding: 10px;
-      margin: 10px;
+      .skills-tools {
+          padding: 25px 0;
+          text-align: left;
+      }
 
-      &:hover {
-        color: $pink-hover;
+      button {
+        width: 60%;
+        color: $pink;
+        background-color: $purple;
+        font-size: 20px;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px;
+
+        &:hover {
+          background-color: $purple-hover;
+        }
       }
     }
+  }
 
+  @media (min-width: $tablet) {
+    h1 {
+      font-size: 45px;
+      padding: 20px 0 80px 0;
+    }
+    .projects-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .project {
+        width: 45%;
+        margin-bottom: 35px;
+
+        img {
+          border-radius: 5px;
+          width: 400px;
+          height: 200px;
+          margin: auto;
+        }
+
+        h3 {
+          padding: 40px 0;
+        }
+
+        p {
+          text-align: left;
+          font-size: 20px;
+        }
+
+        .skills-tools {
+          padding: 45px 0;
+      }
+
+        button {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $laptop) {
+    h1 {
+      font-size: 45px;
+      padding: 20px 0 80px 0;
+    }
+    .projects-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .project {
+        width: 45%;
+        margin-bottom: 35px;
+
+        img {
+          border-radius: 5px;
+          width: 85%;
+          height: 23%;
+          margin: auto;
+        }
+
+        h3 {
+          font-size: 35px;
+        }
+
+        p {
+          text-align: left;
+          font-size: 20px;
+        }
+
+        .skills-tools {
+          padding: 45px 0;
+      }
+
+        button {
+          width: 80%;
+        }
+      }
+    }
   }
 }

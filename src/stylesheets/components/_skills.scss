@@ -18,15 +18,55 @@
     padding: 40px 0 10px 0;
     margin: auto;
   }
+  .skills-container {
+    p {
+      width: 70%;
+      font-weight: bold;
+      color: $purple;
+      background-color: $background;
+      padding: 15px 0;
+      margin: 30px auto;
+      font-size: 20px;
+      text-transform: uppercase
+    }
 
-  p {
-    width: 70%;
-    font-weight: bold;
-    color: $purple;
-    background-color: $background;
-    padding: 15px 0;
-    margin: 30px auto;
-    font-size: 20px;
-    text-transform: uppercase
+  }
+
+  @media (min-width: $tablet) {
+    padding: 40px 0 80px 0;;
+    h1 {
+      font-size: 45px;
+    }
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 85%;
+      margin: auto;
+
+      p {
+        width: 45%;
+      }
+    }
+  }
+
+  @media (min-width: $laptop) {
+    h3 {
+      font-size: 35px;
+    }
+  }
+
+  @media (min-width: $desktop) {
+    padding-bottom: 90px;
+    
+    h3 {
+      padding-bottom: 40px;
+    }
+
+    .skills-container {
+      width: 75%;
+      p {
+        width: 30%;
+      }
+    }
   }
 }
