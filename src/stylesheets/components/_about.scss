@@ -66,8 +66,6 @@
       margin: auto;
       .about-images {
         width: 100%;
-        img {
-        }
       }
 
       .about-text {
@@ -83,7 +81,7 @@
     }
     .about-container {
       display: flex;
-      align-items: start;
+      align-items: flex-start;
       width: 80%;
 
       .about-images {
