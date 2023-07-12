@@ -19,10 +19,6 @@ footer {
       color: $yellow-hover;
     }
 
-    .separate {
-      display: none;
-    }
-
     nav {
       padding: 20px;
 
@@ -50,7 +46,7 @@ footer {
       width: 80%;
       margin: auto;
 
-      p {
+      a.email-link {
         font-size: 22px;
         padding-top: 15px;
         padding-bottom: 20px;
@@ -58,6 +54,10 @@ footer {
         border-right: $yellow-hover 0.5px solid;
         width: 50%;
         margin-bottom: 30px;
+
+        &:hover {
+          color: $pink-hover;
+        }
       }
 
       nav {

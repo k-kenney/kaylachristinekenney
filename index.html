@@ -113,8 +113,6 @@
         <div class="about-container">
           <div class="about-images">
             <img class="kayla" src="./src/images/kenney-kayla-photo.jpg" alt="Picture of Kayla">
-            <img class="kayla-ed" src="./src/images/kayla-ed.jpg" alt="Kayla and Edward in Georgia">
-            <img class="cats" src="./src/images/cats.jpg" alt="Kayla's cats">
           </div>
           <div class="about-text">
             <h3>Hi there, my name is Kayla Kenney. I am a <strong>Front End Web Developer</strong> who travels the world.</h3>
@@ -132,26 +130,29 @@
         </div>
       </section>
     </main>
-    <section class="contact">
+    <section class="contact" id="contact">
       <h1>Contact Me</h1>
       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyarwyj" method="post">
         <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-          <label for="message">Message</label>
-          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          <div class="name-email">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          </div>
+          <div class="message">
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </div>
         </fieldset>
         <input type="submit" id="submit" value="Submit">
       </form>
     </section>
-    <footer id="contact">
+    <footer>
       <h3>Let's Connect!</h3>
       <div class="footer-info">
-        <a href=mailto:kaylachristinekenney@gmail.com subject="HTML link">kaylachristinekenney@gmail.com</a>
-        <p class="separate">|</p>
+        <a href=mailto:kaylachristinekenney@gmail.com subject="HTML link" class="email-link">kaylachristinekenney@gmail.com</a>
         <nav class="social-icons">
           <a href="https://www.linkedin.com/in/teachertotechie/" target="_blank" rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
