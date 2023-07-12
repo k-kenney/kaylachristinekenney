@@ -37,14 +37,15 @@
           text-align: left;
       }
 
-      button {
-        width: 60%;
+      a {
         color: $pink;
         background-color: $purple;
         font-size: 20px;
         border-radius: 25px;
-        padding: 10px;
-        margin: 10px;
+        padding: 15px 30px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
 
         &:hover {
           background-color: $purple-hover;
@@ -87,7 +88,7 @@
           padding: 45px 0;
       }
 
-        button {
+        a {
           width: 80%;
         }
       }
@@ -128,8 +129,49 @@
           padding: 45px 0;
       }
 
-        button {
+        a {
           width: 80%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $desktop) {
+    h1 {
+      font-size: 55px;
+    }
+    .projects-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .project {
+        width: 45%;
+        margin-bottom: 35px;
+
+        img {
+          border-radius: 5px;
+          width: 500px;
+          height: 300px;
+          margin: auto;
+        }
+
+        h3 {
+          font-size: 35px;
+        }
+
+        p {
+          text-align: left;
+          font-size: 20px;
+        }
+
+        .skills-tools {
+          padding: 45px 0;
+      }
+
+        a {
+          margin: 20px auto;
+          width: 60%;
         }
       }
     }

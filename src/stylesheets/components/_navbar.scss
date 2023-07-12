@@ -70,7 +70,17 @@ header {
     }
   }
   @media (min-width: $desktop) {
-    width: 60%;
+    width: 50%;
+
+    .pages-navbar {
+      font-size: 1.4rem;
+
+      a {
+        span {
+          padding: 10px 20px;
+        }
+      }
+    }
   }
 
 }
