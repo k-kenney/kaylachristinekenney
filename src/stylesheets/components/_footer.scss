@@ -14,9 +14,8 @@ footer {
   .footer-info {
     text-align: center;
 
-    p {
-      font-size: 20px;
-      padding-bottom: 25px;
+    a {
+      font-size: 18px;
       color: $yellow-hover;
     }
 
@@ -25,7 +24,7 @@ footer {
     }
 
     nav {
-      padding-bottom: 20px;
+      padding: 20px;
 
       a {
         padding: 0 7px;
