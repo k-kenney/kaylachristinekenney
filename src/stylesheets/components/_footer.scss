@@ -17,7 +17,8 @@ footer {
 
     a {
       font-size: 18px;
-      color: $yellow-hover;
+      color: $yellow;
+      transition: 0.3s;
     }
 
     nav {
@@ -27,6 +28,7 @@ footer {
         padding: 0 7px;
         font-size: 24px;
         color: $pink;
+        transition: 0.3s;
 
         &:hover {
           color: $pink-hover;
