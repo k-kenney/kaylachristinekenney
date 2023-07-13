@@ -73,6 +73,10 @@ form {
 }
 
   @media (min-width: $tablet) {
+    h1 {
+      padding-top: 50px;
+    }
+
     form {
       width: 50%;
 
@@ -92,7 +96,9 @@ form {
   }
 
   @media (min-width: $laptop) {
+    padding-bottom: 50px;
     h1 {
+      padding-top: 0;
       padding-bottom: 50px;
     }
     form {
@@ -130,7 +136,6 @@ form {
       #submit {
         font-size: 20px;
         margin: 60px 0 50px 0;
-
       }
     }
   }
