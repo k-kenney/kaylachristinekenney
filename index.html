@@ -10,8 +10,8 @@
     
     
     <script src="https://kit.fontawesome.com/0071cab30c.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-7beafa25.js"></script>
-    <link rel="stylesheet" href="/assets/index-2f64880c.css">
+    <script type="module" crossorigin src="/assets/index-6fd8e30d.js"></script>
+    <link rel="stylesheet" href="/assets/index-28b3fbfe.css">
   </head>
   <body>
     <header>
@@ -169,5 +169,12 @@
         </nav>
       </div>
     </footer>
+    <script>
+      window.onbeforeunload = () => {
+        for(const form of document.getElementsByTagName('form')) {
+          form.reset();
+        }
+      }
+    </script>
   </body>
 </html>
